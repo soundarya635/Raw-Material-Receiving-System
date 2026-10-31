@@ -1,0 +1,40 @@
+# Target and build files
+backend/target/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Node dependencies
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Database storage & cluster data
+database/pgdata/
+backend/data/
+*.mv.db
+*.trace.db
+
+# IDE and Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
